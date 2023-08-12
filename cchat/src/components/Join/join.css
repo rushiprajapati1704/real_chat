@@ -1,0 +1,62 @@
+.JoinPage{
+    background-color: rgb(19, 22, 38);   
+    height: 100vh;
+    width: 100vw; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.JoinContainer{
+    border: 2px solid rgb(117, 255, 241);
+    box-shadow: 0px 0px 10px aqua;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.JoinContainer img{
+    height: 10rem;
+    width: 10rem;
+    background-color: aqua;
+    border-radius: 70px;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+    &:hover{
+        background-color: red;
+    }
+}
+.JoinContainer h1{
+    color: rgb(255, 7, 90);
+    margin-left: 20px;
+    font-size: 60px;
+    border-bottom: 2px solid rgb(214, 34, 34);
+}
+.JoinContainer input{
+    outline: none;
+    margin: 20px;
+    height: 3rem;
+    width:30rem;
+    font-size: 35px;
+    font-family:sans-serif;
+    border: 3px solid rgb(255, 0, 102);
+    box-shadow: 0px 0px 10px rgb(255, 0, 102);
+    background-color:transparent;
+    color: white;
+    padding-left: 10px;
+}
+.joinbtn{
+    background-color: rgb(255, 1, 73);
+    height: 2rem;
+    width: 6rem;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+    &:hover{
+        background-color: rgb(255, 94, 134);
+    }
+}

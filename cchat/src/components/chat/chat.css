@@ -1,0 +1,86 @@
+.chatPage{
+    background-color: rgb(45, 36, 71);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    
+}
+.chatContainer{
+    background-color: rgb(22, 21, 21);
+    height: 90%;
+    width: 90%;
+    border: 3px solid rgb(11, 232, 252);
+    box-shadow: 0px 0px 20px rgb(2, 248, 203);
+}
+.header{
+    background-color: rgb(57, 57, 57);
+    height: 10%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+    border:2px solid rgb(228, 228, 228);
+    border-radius: 30px;
+    
+}
+.close{
+    float: right;
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+    transition: all 0.3s;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.2);
+    }
+}
+.chatBox{
+    height: 83%;
+    box-sizing: border-box ;
+    overflow-y: auto;
+    
+}
+.inputBox{
+    height: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#chatInput{
+    margin: 1px;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(50, 49, 49);
+    padding: 3px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+.inputBox button{
+    margin: 1px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    height: 100%;
+    width: 6rem;
+    border: 2px solid white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    &:hover{
+        background-color: rgb(25, 0, 255);
+        box-shadow: 0px 0px 10px aqua;
+    }
+}
+
+.sedimg{
+    width: 20px;
+    height: 20px;
+}

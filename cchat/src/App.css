@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+@media screen and (max-width: 800px) {
+    .JoinPage{
+        height: 100vh;
+        width: 100vw;
+        .JoinContainer{
+            height: 92%;
+            width: 92%;
+        }
+        .joinbtn{
+            height: 50px;
+            border-radius: 50px;
+            width: 200px;
+            font-size: 30px;
+            margin-top: 20px;
+        }
+        #joinInput{
+            width:17rem;
+            margin: 30px;
+        }
+    }
+    
+    .chatPage{
+        background-color: #00ffff;
+        .chatContainer{
+            height: 100%;
+            width: 100%;
+            /* border: none; */
+            margin: 0;
+            padding: 0;
+        }
+        .close{
+            width: 30px;
+            height: 30px;
+        }
+    }
+
+    .messageBox{
+        border: none;
+        max-width: 80%;
+        font-size: 1rem;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+  }
